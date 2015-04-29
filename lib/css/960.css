@@ -1,0 +1,47 @@
+/* YYY Candidaturas */
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+.candidaturas {
+    margin: 0;
+    text-align: center;
+}
+ol {
+    list-style-type: decimal;
+    margin: 10px 0 10px 30px;
+}
+ol, ul {
+    list-style: none outside none;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+.candidaturas .candidatura {
+    display: inline-table;
+    text-align: center;
+    width: 180px;
+}
+.candidatura {
+    margin-bottom: 7px !important;
+}
+/* Fin YYY */
+

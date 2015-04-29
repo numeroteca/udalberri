@@ -1,0 +1,23 @@
+/* This is a Child-theme of Contango for Wikitoki
+Theme Name:     Contango child
+Theme URI:      
+Description:    Child theme for the Parent theme COntango
+Author:         udalberri
+Author URI:     http://udalberri.org
+Template: 			contango
+Version:        0.1
+*/
+
+ 	
+@import url("../contango/style.css");
+
+div#comments {display:none;}
+
+div#loop-nav-singlular-post {
+	display:none;
+}
+
+#masthead {
+	padding: 0 0;
+}
+
