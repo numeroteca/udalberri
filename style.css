@@ -21,3 +21,6 @@ div#loop-nav-singlular-post {
 	padding: 0 0;
 }
 
+.button-large:hover {
+	background-color:#05CCC4 !important;
+}
