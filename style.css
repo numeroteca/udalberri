@@ -24,3 +24,7 @@ div#loop-nav-singlular-post {
 .button-large:hover {
 	background-color:#05CCC4 !important;
 }
+
+.menu ul a, .menu ul a:visited {
+    padding: 11px;
+}
