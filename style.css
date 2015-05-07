@@ -26,5 +26,9 @@ div#loop-nav-singlular-post {
 }
 
 .menu ul a, .menu ul a:visited {
-    padding: 11px;
+  padding: 10px;
+}
+
+.-item {
+	margin-bottom:30px !important;
 }
