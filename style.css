@@ -32,3 +32,30 @@ div#loop-nav-singlular-post {
 .-item {
 	margin-bottom:30px !important;
 }
+
+/* plugin eventos */
+#tribe-events-pg-template {
+    max-width: 940px !important;
+    background-color: #fff;
+}
+
+.tribe-events-list .type-tribe_events h2 {
+    font-size: 2em;
+    font-weight:bold;
+}
+
+#tribe-events-content {
+    margin-left: 20px;
+}
+
+.tribe-events-day .tribe-events-day-time-slot h5 {
+    background: none repeat scroll 0% 0% #aaa !important;
+}
+
+#tribe-events {
+	padding-right: 20px;
+}
+
+.single-tribe_events .tribe-events-content {
+    width: 80% !important;
+}
