@@ -26,11 +26,16 @@ div#loop-nav-singlular-post {
 }
 
 .menu ul a, .menu ul a:visited {
-  padding: 10px;
+  padding: 8px;
+  font-size: 13px;
 }
 
 .-item {
 	margin-bottom:30px !important;
+}
+
+.current_page_item {
+	font-weight:bold;
 }
 
 /* plugin eventos */
