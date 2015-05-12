@@ -38,6 +38,55 @@ div#loop-nav-singlular-post {
 	font-weight:bold;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans",sans-serif;
+}
+
+body {
+    background: url("") repeat scroll 0% 0% #f0f0f0 !important;
+}
+
+/* home page */
+
+.page-template-page-home h2, .page-template-page-home h2 a, .page-template-page-home h2 a:visited {
+	margin:40px 0 30px 0;
+	font-size:40px;
+	color:#1e938d;
+	width:75%;
+	line-height:40px;
+	padding:10px;
+}
+
+.page-template-page-home .grid_9 {
+	margin-bottom:40px;
+}
+
+.page-template-page-home p {
+	font-size: 16px;
+	line-height: 29px;
+}
+
+.page-template-page-home h4 a, .page-template-page-home h4 a:visited {
+	border-bottom: 0px !important;
+	text-transform: none;
+	color:#1e938d;
+}
+
+.page-template-page-home .entry-title {
+	border-bottom: 0px !important;
+}
+
+.page-template-page-home .widget ol li {
+	margin: -2px 0px 28px;
+	padding: 0px 0px 6px;
+	border-bottom: 1px dotted #E7E7E7;
+}
+
+.page-template-page-home .duration {
+	font-size: 16px;
+	color: #777;
+}
+
 /* plugin eventos */
 #tribe-events-pg-template {
     max-width: 940px !important;
