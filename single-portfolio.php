@@ -1,43 +1,31 @@
-<?php get_header();	?>
-
-<div id="content" class="site-content clearfix">
-
-  <?php get_template_part( 'loop-meta' ); ?>
-    
-  <div class="container_16 clearfix">
-    
-    <div class="grid_11">
-      
-      <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
-  	  
-      	  <?php contango_breadcrumbs(); ?>
-
-          <?php if ( have_posts() ) : ?>
+<?php get_header(); ?>
+	
+<div id="main-content" class="row fix">
+    <div class="wrapper">
+        <div id="content" class="floatleft">
+            <div class="meta-nav fix">
+                <span><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e('Home', 'alpona'); ?></a></span> &#187; <span> <?php the_title(); ?> </span>
+            </div> <!-- End navigation top -->
+            <?php while(have_posts()): the_post(); ?>
+            <?php get_template_part( 'content', 'portfolio' ); ?>
+            <!-- End main content if have any -->
+            <?php endwhile; ?> <!-- End query -->
             
-              <?php while ( have_posts() ) : the_post(); ?>
-              
-                <?php get_template_part( 'content', 'portfolio' ); ?>
-              
-              <?php endwhile; ?>
-            
-          <?php else : ?>
+            <div class="single-meta fix">
+            <span class="alignleft">
+            <?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'alpona' ) . ' %title' ); ?>
+            </span>
+            <span class="alignright">
+            <?php next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'alpona' ) . '' ); ?>
+            </span>
+            </div> <!-- Navigation -->
                         
-              <?php get_template_part( 'loop-error' ); ?>
+            <?php comments_template( '', true ); ?>
             
-          <?php endif; ?>
-            
-          <?php contango_loop_nav_singular_post(); ?>
-      
-        </main><!-- #main -->
-      </div><!-- #primary -->
-    
-    </div> <!-- end .grid_11 -->
-    
-    <?php get_sidebar(); ?>
-
-  </div> <!-- end .container_16 -->
-
-</div><!-- #content -->
-  
+            <!-- End comment box -->
+        </div> <!-- End content -->
+        <?php get_sidebar(); ?>
+    </div> <!-- End wrapper -->
+</div> <!-- End Main content -->
+       
 <?php get_footer(); ?>

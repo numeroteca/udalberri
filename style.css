@@ -4,21 +4,17 @@ Theme URI:
 Description:    Child theme for the Parent theme COntango
 Author:         udalberri
 Author URI:     http://udalberri.org
-Template: 			contango
+Template: 			alpona
 Version:        0.1
 */
 
  	
-@import url("../contango/style.css");
+@import url("../alpona/style.css");
 
 div#comments {display:none;}
 
 div#loop-nav-singlular-post {
 	display:none;
-}
-
-#masthead {
-	padding: 0 0;
 }
 
 .button-large:hover {
@@ -44,6 +40,21 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background: url("") repeat scroll 0% 0% #f0f0f0 !important;
+}
+
+/* alpona theme */
+.sitename {
+	text-indent: -9999px;
+}
+#main-header {
+    height: 0;
+    padding: 0;
+}
+.banner-img {
+    margin-top: 0;
+}
+.top-menu {
+    margin-top: 0;
 }
 
 /* home page */
@@ -87,10 +98,19 @@ body {
 	color: #777;
 }
 
+.display-posts-listing li {
+ margin-bottom: 40px;
+}
+.listing-item .title {
+	font-size: 20px;
+}
+
 /* plugin eventos */
 #tribe-events-pg-template {
-    max-width: 940px !important;
     background-color: #fff;
+    margin-top: 45px;
+    width: 90%;
+    max-width: none;
 }
 
 .tribe-events-list .type-tribe_events h2 {
