@@ -56,44 +56,48 @@ body {
 .top-menu {
     margin-top: 0;
 }
+.top-menu, .sub-menu {
+    background-color: #1E938D !important;
+}
+.top-menu li a {
+    color: #fff;
+}
+.main-bg {
+    background-color: #FFF;
+}
 
 /* home page */
 
-.page-template-page-home h2, .page-template-page-home h2 a, .page-template-page-home h2 a:visited {
+.page-id-1087 #content h2, .page-id-1087 #content h2 a, .page-id-1087 #content h2 a:visited {
 	margin:40px 0 30px 0;
-	font-size:40px;
+	font-size:35px;
 	color:#1e938d;
 	width:75%;
 	line-height:40px;
-	padding:10px;
 }
 
-.page-template-page-home .grid_9 {
-	margin-bottom:40px;
-}
-
-.page-template-page-home p {
+.page-id-1087 p {
 	font-size: 16px;
 	line-height: 29px;
 }
 
-.page-template-page-home h4 a, .page-template-page-home h4 a:visited {
+.page-id-1087 h4 a, .page-id-1087 h4 a:visited {
 	border-bottom: 0px !important;
 	text-transform: none;
 	color:#1e938d;
 }
 
-.page-template-page-home .entry-title {
+.page-id-1087 .entry-title {
 	border-bottom: 0px !important;
 }
 
-.page-template-page-home .widget ol li {
+.page-id-1087 .widget ol li {
 	margin: -2px 0px 28px;
 	padding: 0px 0px 6px;
 	border-bottom: 1px dotted #E7E7E7;
 }
 
-.page-template-page-home .duration {
+.page-id-1087 .duration {
 	font-size: 16px;
 	color: #777;
 }
