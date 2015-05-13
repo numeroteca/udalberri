@@ -4,7 +4,7 @@
     <div class="wrapper">
         <div id="content" class="floatleft">
             <div class="meta-nav fix">
-                <span><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e('Home', 'alpona'); ?></a></span> &#187; <span> <?php the_title(); ?> </span>
+                <span><a href="/blog"><?php _e('Blog', 'alpona'); ?></a></span> &#187; <span> <?php the_title(); ?> </span>
             </div> <!-- End navigation top -->
             <?php while(have_posts()): the_post(); ?>
             <?php get_template_part('content', get_post_format()); ?>
