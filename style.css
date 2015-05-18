@@ -137,3 +137,8 @@ body {
 .single-tribe_events .tribe-events-content {
     width: 80% !important;
 }
+
+.tribe-events-single-event-description li {
+    list-style: inside none disc;
+    margin: 0px !important;
+}
