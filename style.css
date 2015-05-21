@@ -106,7 +106,24 @@ body {
  margin-bottom: 40px;
 }
 .listing-item .title {
-	font-size: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.display-posts-listing .main-post ul li {
+	list-style: inside none none !mportant;
+}
+
+.display-posts-listing .listing-item .title {
+	display: block;
+	margin-bottom: 15px;
+}
+.display-posts-listing .listing-item .excerpt-dash {
+	display: none;
+}
+
+.main-post ul li {
+    list-style: inside none none !important;
 }
 
 /* plugin eventos */
